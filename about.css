@@ -1,0 +1,72 @@
+:root {
+    --primary-color: rgb(10, 173, 10);
+    --primary-color-hover: rgb(9, 147, 9);
+    --text-gray: rgba(92, 108, 117, 0.75);
+    --text-darkGrey: rgb(92, 108, 117);
+}
+
+.img img {
+    border-radius: 20px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-darkGrey);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.skills-hobbies, .project .menu .title {
+    margin-top: 42px;
+    margin-bottom: 24px;
+}
+
+.titleItem {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills .item, .hobbies .item{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.project {
+    margin-bottom: 42px;
+}
+
+.project .menu .item a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: font-size 2s, font-weight 2s;
+}
+
+.project .menu .item a:hover {
+    color: var(--primary-color-hover);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.link-back {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    margin-bottom: 42px;
+}
+
+.link-back:hover {
+    background: var(--primary-color);
+    color: white;
+}

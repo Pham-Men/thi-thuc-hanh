@@ -1,0 +1,38 @@
+:root {
+    --primary-color: rgb(10, 173, 10);
+    --primary-color-hover: rgb(9, 147, 9);
+    --text-gray: rgba(92, 108, 117, 0.75);
+    --text-darkGrey: rgb(92, 108, 117);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 42px 0;
+}
+
+label, .item {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-darkGrey);
+}
+
+.button {
+    margin-top: 24px;
+}
+
+.button button {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.button button:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.item {
+    margin-bottom: 12px;
+}

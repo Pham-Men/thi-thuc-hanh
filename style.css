@@ -1,0 +1,85 @@
+:root {
+    --primary-color: rgb(10, 173, 10);
+    --primary-color-hover: rgb(9, 147, 9);
+    --text-gray: rgba(92, 108, 117, 0.75);
+    --text-darkGrey: rgb(92, 108, 117);
+}
+
+.header img {
+    border-radius: 50%;
+}
+
+.link-menu {
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.item-link a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 0 20px;
+}
+
+.item-link a:hover {
+    color: var(--primary-color-hover);
+}
+
+.introduce {
+    margin: 42px 0;
+}
+
+.introduce .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--text-darkGrey);
+}
+
+.introduce .img img {
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.footer .social .text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer .social .text a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.footer .social .text a:hover {
+    color: var(--primary-color-hover);
+}
+
+.follow {
+    margin-right: 60px;
+}
+
+.follow .item {
+    margin-left: 24px;
+}
+
+.follow .item .icon {
+    border: 1px var(--primary-color) solid;
+    width: 26px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.follow .item i {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.follow .item i:hover {
+    color: var(--primary-color-hover);
+}
